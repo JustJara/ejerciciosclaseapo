@@ -10,6 +10,6 @@ class Carta:
     PICA = "Pica"
     CORAZON = "Corazón"
 
-    def __init__(self):
-        self.valor = 0
-        self.pinta = ""
+    def __init__(self,valor,pinta):
+        self.valor = valor
+        self.pinta = pinta
