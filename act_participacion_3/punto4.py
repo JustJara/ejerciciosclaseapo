@@ -11,20 +11,20 @@ class Rectangulo:
         self.esquina2 = punto2
     
     def calcular_perimetro(self):
-        distancia_horizontal = self.esquina2.coord_x - self.esquina1.coord_x
-        distancia_vertical= self.esquina2.coord_y - self.esquina1.coord_y
+        distancia_horizontal = abs(self.esquina2.coord_x - self.esquina1.coord_x)
+        distancia_vertical= abs(self.esquina2.coord_y - self.esquina1.coord_y)
         perimetro = (distancia_horizontal*2)+(distancia_vertical*2)
         return perimetro
     
     def calcular_area(self):
-        distancia_horizontal = self.esquina2.coord_x - self.esquina1.coord_x
-        distancia_vertical= self.esquina2.coord_y - self.esquina1.coord_y
+        distancia_horizontal = abs(self.esquina2.coord_x - self.esquina1.coord_x)
+        distancia_vertical= abs(self.esquina2.coord_y - self.esquina1.coord_y)
         area = distancia_horizontal * distancia_vertical
         return area
     
     def es_cuadrado(self):
-        distancia_horizontal = self.esquina2.coord_x - self.esquina1.coord_x
-        distancia_vertical= self.esquina2.coord_y - self.esquina1.coord_y
+        distancia_horizontal = abs(self.esquina2.coord_x - self.esquina1.coord_x)
+        distancia_vertical= abs(self.esquina2.coord_y - self.esquina1.coord_y)
         if distancia_horizontal == distancia_vertical:
             return "El rectángulo es cuadrado"
         else:
