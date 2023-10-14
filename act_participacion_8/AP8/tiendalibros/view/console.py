@@ -62,7 +62,7 @@ class UIConsola:
                 if isbl == isbn:
                     bul = True
             if bul == True:
-                self.tienda_libros.agregar_libro_a_carrito(self.tienda_libros.catalogo[isbl],cantidad)
+                self.tienda_libros.agregar_libro_a_carrito(self.tienda_libros.catalogo[isbn],cantidad)
             else:
                 print(LibroInexistenteEnCatalogoError(isbn))
 
