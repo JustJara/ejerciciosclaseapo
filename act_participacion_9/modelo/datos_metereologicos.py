@@ -23,8 +23,7 @@ class DatosMetereologicos:
         self.suma_direcciones_viento = 0
         self.cant_direcciones_viento = 0
         self.direccion_viento_promedio = 0
-        self.cantidad_cercana_a_promedio= 999
-
+        
     def procesar_datos(self) -> tuple[float,float,float,float,str]:
         with open(self.nombre_archivo, "r") as archivo:
             for line in archivo:
