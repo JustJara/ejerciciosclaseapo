@@ -154,7 +154,7 @@ class Estacionamiento:
 
     
     def cargar_estado(self, nombre_archivo="estado.json"):
-        ruta_absoluta = os.path.abspath(nombre_archivo)
+        ruta_absoluta = "PROYECTO_DE_AULA/estado.json"
         with open(ruta_absoluta, "r") as archivo:
             estado = json.load(archivo)
 

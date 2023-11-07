@@ -1,0 +1,277 @@
+{
+    "lista_usuario": [
+        {
+            "nombre_usuario": "none",
+            "contrase\u00f1a": "none",
+            "parqueadero_asociado": null
+        },
+        {
+            "nombre_usuario": "josue",
+            "contrase\u00f1a": "123",
+            "parqueadero_asociado": {
+                "filas": 4,
+                "columnas": 4,
+                "parqueadero": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "nombre_usuario": "thomas",
+            "contrase\u00f1a": "admin",
+            "parqueadero_asociado": {
+                "filas": 3,
+                "columnas": 3,
+                "parqueadero": [
+                    [
+                        "Reservado",
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "nombre_usuario": "pablo",
+            "contrase\u00f1a": "123",
+            "parqueadero_asociado": {
+                "filas": 4,
+                "columnas": 4,
+                "parqueadero": [
+                    [
+                        {
+                            "placa_vehiculo": "tsh123",
+                            "celda_ocupada": [
+                                0,
+                                0
+                            ],
+                            "hora_ingreso": "5:00"
+                        },
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "nombre_usuario": "felipe",
+            "contrase\u00f1a": "123",
+            "parqueadero_asociado": {
+                "filas": 6,
+                "columnas": 6,
+                "parqueadero": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ]
+            }
+        },
+        {
+            "nombre_usuario": "admin",
+            "contrase\u00f1a": "admin",
+            "parqueadero_asociado": {
+                "filas": 8,
+                "columnas": 8,
+                "parqueadero": [
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ],
+                    [
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0,
+                        0
+                    ]
+                ]
+            }
+        }
+    ],
+    "lista_vehiculos_en_parqueadero": [
+        {
+            "placa_vehiculo": "tsh123",
+            "celda_ocupada": [
+                0,
+                0
+            ],
+            "hora_ingreso": "5:00"
+        }
+    ],
+    "lista_vehiculos_con_reserv": [
+        {
+            "placa_vehiculo": "tsh123",
+            "celda_ocupada": [
+                0,
+                0
+            ],
+            "hora_ingreso": null
+        }
+    ]
+}
